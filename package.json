@@ -1,0 +1,11 @@
+{
+  "name": "media-workbench",
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "engines": { "node": ">=22.18.0" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning workbench/serve.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --import ./workbench/register-source.mjs --test workbench/smoke.test.mjs"
+  }
+}

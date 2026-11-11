@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Media Workbench</title>
+<style>
+  body { font: 1rem system-ui, sans-serif; background: #181b20; color: #f1f3f5; margin: 2rem auto; padding: 0 1rem; max-width: 68rem; }
+  h1 { font-size: 1.5rem; }
+  fieldset { border: 1px solid #626c7a; padding: 0.8rem; }
+  label { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; padding: 0.3rem; }
+  select, input { font: inherit; color-scheme: dark; max-width: 100%; }
+  canvas, video { display: block; max-width: 100%; max-height: 70vh; height: auto; background: #0e1013; }
+  audio { width: 100%; max-width: 34rem; }
+  [hidden] { display: none; }
+</style>
+<script type="importmap">{"imports":{"@/":"/frontend/src/"}}</script>
+<main>
+  <h1>Media Workbench</h1>
+  <label>Fixture <select id="fixture"></select></label>
+  <fieldset id="image-tools" hidden>
+    <legend>Image preview</legend>
+    <label>Brightness <input id="brightness" type="range" min="0.4" max="1.6" value="1" step="0.05"></label>
+    <label>Overlay <select id="overlay"><option value="">None</option></select></label>
+  </fieldset>
+  <p id="status" role="status">Loading fixtures…</p>
+  <canvas id="preview" aria-label="Transform preview" hidden></canvas>
+  <video id="video" controls playsinline preload="metadata" hidden></video>
+  <audio id="audio" controls preload="metadata" hidden></audio>
+</main>
+<script type="module" src="/workbench/preview.mjs"></script>
+</html>

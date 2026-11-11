@@ -1,0 +1,54 @@
+[
+  {
+    "file": "stills/01-listen-original.jpg",
+    "sha256": "b6aef5882d4caabb36f20da485e91f36ad13189175e5a65a2befe4face54856f"
+  },
+  {
+    "file": "stills/01-listen-clean.jpg",
+    "sha256": "115827e2723227587a62fce4fe130d2fcbb65434aacdbacbfff39905f8f7c384"
+  },
+  {
+    "file": "stills/02-curiosity.jpg",
+    "sha256": "1e1dc459ce1d3162c5103a0e181a72874c48f36621e05c1bf1d6902570351cb2"
+  },
+  {
+    "file": "stills/03-connection.jpg",
+    "sha256": "d003c7af229abbefe9947d4ffdbf1f70687aad0d0f5bc2cfd7db4a375a5bae78"
+  },
+  {
+    "file": "clips/01-listen.mp4",
+    "sha256": "eb045bea0b124efd982b064a4875b5badf2e5476f745563180cdd386efe147af"
+  },
+  {
+    "file": "clips/02-curiosity.mp4",
+    "sha256": "040984914c2ac112a534d9aae6c4ca80a771e0cc247b07ca079053c663016707"
+  },
+  {
+    "file": "clips/03-connection.mp4",
+    "sha256": "ce580b552c1609f14dd2639af8e4f8ea9856504f06a3938fb670837c1a0484fa"
+  },
+  {
+    "file": "overlays/title-01.png",
+    "sha256": "68c9521f1531bf85b5d8d1a368e5e49254617bd9f91eb7aeb4c87662ec267328"
+  },
+  {
+    "file": "overlays/title-02.png",
+    "sha256": "e432d64114953c4637ab0c6fff4c6031c8e95966366d5a44bd6b2e8ce5194246"
+  },
+  {
+    "file": "overlays/title-03.png",
+    "sha256": "4c71b14831304f96d44b7ab22cf5cf538660ad819802915507eae629e7ecb550"
+  },
+  {
+    "file": "stills/end-card.png",
+    "sha256": "39d102ffac0c4fbeee6415830b7858c07ce35ca741f2c0171d20726a59df5862"
+  },
+  {
+    "file": "audio/native-voiceover-dry.wav",
+    "sha256": "35c4af4cfaeeb1468219885e54bcc7f8d46d15d1c36655f9c9bd3fe9e02df97b"
+  },
+  {
+    "file": "reference/finished-ad.mp4",
+    "sha256": "e2c3490a0e32da5bcc297cf9ad25cbf52eaaf06215dbd11179928cf791906809"
+  }
+]
